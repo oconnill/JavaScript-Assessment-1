@@ -18,3 +18,11 @@ for (var i = 21; i < 100;i = i + 3) {
 //3. find the class average given the following test scores
 
 var scores = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98]; 
+
+var scores = [88, 84, 100, 92, 70, 76, 76, 84, 86, 98];
+function getSum(total, num) {
+    return total + num;
+   }
+scores.reduce(getSum) 
+
+// found the sum need to find a way to divide by scores.length
