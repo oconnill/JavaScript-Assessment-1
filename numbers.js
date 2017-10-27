@@ -2,8 +2,17 @@
 var num10 = 10;
 var string8 = '8';
 var one = 1;
-//2. write a loop that will log only numbers divisible by 3 between 20 - 100
 
+function adder(x,y,z) {
+  return x + y + parseInt(z)
+  
+}
+
+adder(num10, one, string8)
+//2. write a loop that will log only numbers divisible by 3 between 20 - 100
+for (var i = 21; i < 100;i = i + 3) {
+    console.log([i])
+  }
 
 
 //3. find the class average given the following test scores
